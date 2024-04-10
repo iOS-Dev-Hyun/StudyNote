@@ -1,5 +1,6 @@
 # StudyNote
 
+## 위치 권한
 ### Privacy - Location When In Use Usage Description (iOS 11 이상)
 → 앱이 포그라운드에서 실행 중일 때만 위치 정보에 엑세스
 
@@ -24,3 +25,6 @@ true: 기본적으로, 정확도가 떨어지는지 묻는 메세지가 표시�
 false: 전체 위치 정확도를 묻는 메시지가 표시되도록 설정(default)
 → 구체적인 위치를 제공할지,하지 않을지에 대해서 사용자가 선택 가능
 → fullAccuracy and reducedAccuracy
+
+![image](https://github.com/iOS-Dev-Hyun/StudyNote/assets/142004247/375bb8ea-05b5-4e17-8350-347265eb4b01)
+---
