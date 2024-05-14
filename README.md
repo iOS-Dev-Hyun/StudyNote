@@ -1,5 +1,6 @@
 # StudyNote
-
+### This is a space where I can freely jot down notes.
+---
 ## 위치 권한
 ### Privacy - Location When In Use Usage Description (iOS 11 이상)
 → 앱이 포그라운드에서 실행 중일 때만 위치 정보에 엑세스
