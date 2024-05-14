@@ -1,4 +1,4 @@
-# StudyNote
+# 📚iOS-CodeVault
 ### This is a space where I can freely jot down notes.
 ---
 ## 위치 권한
