@@ -153,4 +153,9 @@ false: 전체 위치 정확도를 묻는 메시지가 표시되도록 설정(def
 → fullAccuracy and reducedAccuracy
 
 ![image](https://github.com/iOS-Dev-Hyun/StudyNote/assets/142004247/375bb8ea-05b5-4e17-8350-347265eb4b01)
+
 ---
+
+
+*Source*
+- https://woonhyeong.tistory.com/6
