@@ -1,7 +1,52 @@
 # 📚iOS-CodeVault
 ### This is a space where I can freely jot down notes.
 ---
-## 위치 권한
+## 📒프로퍼티(Property)
+- 저장 프로퍼티(Stored Property)
+    - 값을 저장하기 위해 선언되는 상수/변수
+    - 클래스, 구조체에서 사용
+- 연산 프로퍼티(Computed Property)
+- 타입 프로퍼티(Type Property)
+  
+
+## 📒초기화(Initializers)
+- 저장 속성(
+---
+
+## 📒TableView
+
+
+
+### ❗️UITableViewDelegate 프로토콜 주요 메서드
+
+// 지정된 행이 선택되었음을 알리는 메서드
+func tableView(UITableView, didSelectRowAt: IndexPath)
+
+// 지정된 행의 선택이 해제되었음을 알리는 메서드
+func tableView(UITableView, didDeselectRowAt: IndexPath)
+
+// 특정 위치 행의 높이를 묻는 메서드
+func tableView(UITableView, heightForRowAt: IndexPath)
+
+// 특정 위치 행의 들여쓰기 수준을 묻는 메서드
+func tableView(UITableView, indentationLevelForRowAt: IndexPath)
+
+// 특정 섹션의 헤더뷰 또는 푸터뷰를 요청하는 메서드
+func tableView(UITableView, viewForHeaderInSection: Int)
+func tableView(UITableView, viewForFooterInSection: Int)
+
+// 특정 섹션의 헤더뷰 또는 푸터뷰의 높이를 물어보는 메서드
+func tableView(UITableView, heightForHeaderInSection: Int)
+func tableView(UITableView, heightForFooterInSection: Int)
+
+// 테이블뷰가 편집모드에 들어갔음을 알리는 메서드
+func tableView(UITableView, willBeginEditingRowAt: IndexPath)
+
+// 테이블뷰가 편집모드에서 빠져나왔음을 알리는 메서드
+func tableView(UITableView, didEndEditingRowAt: IndexPath?)
+---
+
+## 📒위치 권한
 ### Privacy - Location When In Use Usage Description (iOS 11 이상)
 → 앱이 포그라운드에서 실행 중일 때만 위치 정보에 엑세스
 
