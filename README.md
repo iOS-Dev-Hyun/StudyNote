@@ -19,31 +19,56 @@
 
 ### ❗️UITableViewDelegate 프로토콜 주요 메서드
 
-// 지정된 행이 선택되었음을 알리는 메서드
-func tableView(UITableView, didSelectRowAt: IndexPath)
+🍔 지정된 행이 선택되었음을 알리는 메서드
+<br/>
+func tableView(UITableView, didSelectRowAt: IndexPath) 
+<br/>
+<br/>
 
-// 지정된 행의 선택이 해제되었음을 알리는 메서드
+🍔 지정된 행의 선택이 해제되었음을 알리는 메서드
+<br/>
 func tableView(UITableView, didDeselectRowAt: IndexPath)
+<br/>
+<br/>
 
-// 특정 위치 행의 높이를 묻는 메서드
+🍔 특정 위치 행의 높이를 묻는 메서드
+<br/>
 func tableView(UITableView, heightForRowAt: IndexPath)
+<br/>
+<br/>
 
-// 특정 위치 행의 들여쓰기 수준을 묻는 메서드
+🍔 특정 위치 행의 들여쓰기 수준을 묻는 메서드
+<br/>
 func tableView(UITableView, indentationLevelForRowAt: IndexPath)
+<br/>
+<br/>
 
-// 특정 섹션의 헤더뷰 또는 푸터뷰를 요청하는 메서드
+🍔 특정 섹션의 헤더뷰 또는 푸터뷰를 요청하는 메서드
+<br/>
 func tableView(UITableView, viewForHeaderInSection: Int)
+<br/>
 func tableView(UITableView, viewForFooterInSection: Int)
+<br/>
+<br/>
 
-// 특정 섹션의 헤더뷰 또는 푸터뷰의 높이를 물어보는 메서드
+🍔 특정 섹션의 헤더뷰 또는 푸터뷰의 높이를 물어보는 메서드
+<br/>
 func tableView(UITableView, heightForHeaderInSection: Int)
+<br/>
 func tableView(UITableView, heightForFooterInSection: Int)
+<br/>
+<br/>
 
-// 테이블뷰가 편집모드에 들어갔음을 알리는 메서드
+🍔 테이블뷰가 편집모드에 들어갔음을 알리는 메서드
+<br/>
 func tableView(UITableView, willBeginEditingRowAt: IndexPath)
+<br/>
+<br/>
 
-// 테이블뷰가 편집모드에서 빠져나왔음을 알리는 메서드
+🍔 테이블뷰가 편집모드에서 빠져나왔음을 알리는 메서드
+<br/>
 func tableView(UITableView, didEndEditingRowAt: IndexPath?)
+
 ---
 
 ## 📒위치 권한
