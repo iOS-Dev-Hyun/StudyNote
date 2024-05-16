@@ -68,6 +68,61 @@ func tableView(UITableView, willBeginEditingRowAt: IndexPath)
 🍔 테이블뷰가 편집모드에서 빠져나왔음을 알리는 메서드
 <br/>
 func tableView(UITableView, didEndEditingRowAt: IndexPath?)
+<br/>
+<br/>
+<br/>
+<br/>
+
+### ❗️UITableViewDataSource 프로토콜 주요 메서드 (🌟 => required)
+
+🌟 특정 위치에 표시할 셀을 요청하는 메서드
+<br/>
+func tableView(UITableView, cellForRowAt: IndexPath) 
+<br/>
+<br/>
+
+🌟 각 섹션에 표시할 행의 개수를 묻는 메서드
+<br/>
+func tableView(UITableView, numberOfRowsInSection: Int)
+<br/>
+<br/>
+
+🍣 테이블뷰의 총 섹션 개수를 묻는 메서드
+<br/>
+func numberOfSections(in: UITableView)
+<br/>
+<br/>
+
+🍣 특정 섹션의 헤더 혹은 푸터 타이틀을 묻는 메서드
+<br/>
+func tableView(UITableView, titleForHeaderInSection: Int)
+func tableView(UITableView, titleForFooterInSection: Int)
+<br/>
+<br/>
+
+🍣 특정 위치의 행을 삭제 또는 추가 요청하는 메서드
+<br/>
+func tableView(UITableView, commit: UITableViewCellEditingStyle, forRowAt: IndexPath)
+<br/>
+<br/>
+
+🍣 특정 위치의 행이 편집 가능한지 묻는 메서드
+<br/>
+func tableView(UITableView, canEditRowAt: IndexPath)
+<br/>
+<br/>
+
+🍣 특정 위치의 행을 재정렬 할 수 있는지 묻는 메서드
+<br/>
+func tableView(UITableView, canMoveRowAt: IndexPath)
+<br/>
+<br/>
+
+🍣 특정 위치의 행을 다른 위치로 옮기는 메서드
+<br/>
+func tableView(UITableView, moveRowAt: IndexPath, to: IndexPath)
+<br/>
+<br/>
 
 ---
 
