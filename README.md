@@ -75,7 +75,7 @@ func tableView(UITableView, didEndEditingRowAt: IndexPath?)
 
 ### ❗️UITableViewDataSource 프로토콜 주요 메서드 (🌟 => required)
 
-🌟 특정 위치에 표시할 셀을 요청하는 메서드
+🌟 특정 위치에 표시할 셀을 요청하는 메서드 -> Int
 <br/>
 func tableView(UITableView, cellForRowAt: IndexPath) 
 <br/>
@@ -83,7 +83,7 @@ func tableView(UITableView, cellForRowAt: IndexPath)
 
 🌟 각 섹션에 표시할 행의 개수를 묻는 메서드
 <br/>
-func tableView(UITableView, numberOfRowsInSection: Int)
+func tableView(UITableView, numberOfRowsInSection: Int) -> UITableViewCell
 <br/>
 <br/>
 
